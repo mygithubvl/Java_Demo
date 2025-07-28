@@ -32,6 +32,6 @@ public final class DiceGameSimulator {
         }
 
         double duration = (endTime - start) / 1_000_000_000.0;
-        System.out.printf("Total simulation took %.2f seconds.%n", duration);
+        System.out.printf("Simulation time: %.2f seconds.%n", duration);
     }
 }
